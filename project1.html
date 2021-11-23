@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--makes the page responsive-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <title>HCI Project</title>
+    
+    <link rel="stylesheet" href="./css/all.css">
+
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  
+</head>
+<body>
+  <div class="skip"><a href="#main">Skip to Main Content</a></div>
+ <!--Navigation--> 
+<nav class="nav">
+    <div class="nav-menu flex-row">
+        <div class="nav-brand">
+          <a href="#" class="text-gray">Some Icon</a>  
+        </div>
+        <div class="toggle-collapse">
+            <div class="toggle-icons">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <div>
+            <ul class="nav-items">
+                <li class="nav-link">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav-link">
+                    <a href="project1.html" class="active">My work</a>
+                </li>
+                <li class="nav-link">
+                    <a href="about.html">About Me</a>
+                </li>
+                <li class="nav-link">
+                    <a href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+        <div class="social text-gray">
+          <a href="https://www.linkedin.com/in/sharadhi-raghuraj/" aria-label="first link"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Sharadhi98" aria-label="second link"><i class="fab fa-github"></i></a>
+          <a href="sharadhi@umich.edu" aria-label="third link"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+</nav>
+
+<!--Main Section-->
+<main id="main">
+    <!--First section with text and image-->
+    <section class="site-title project1" style="background: url(assets/Project_1/project1BG.png); 
+    height: 70vh; 
+    z-index: -1; 
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;">
+    </section>
+
+    
+
+    
+    <!--Step Bar-->
+          
+      <div class="m1 menu" id="menu">
+        <div id="menu-center" class="menu-center">
+            <ul>
+                <li><a class="active" href="#interviews">Empathize</a></li>
+                <li><a href="#personas">Define</a></li>
+                <li><a href="#systemAnalysis">System Ananlysis</a></li>
+                <li><a href="#systemDesign">System Design</a></li>
+                <li><a href="#testing">Testing</a></li>
+                <!-- <li><a href="javascript:void(0)" class="icon" onclick="myNewFunction()"><i class="fa fa-bars"></i></a></li> -->
+            </ul>
+        </div>
+    </div>
+      
+      <!--My work container-->
+    <section class="container">
+        <div class="site-content">
+            <div class="posts">
+                <div class="post-content">
+                    <div class="post-title mainContent" id="Introduction">
+                      <div class="sideContent">
+                        <h1>Introduction</h1>
+                        <p>The world is largely visual. Television is a part of everyone’s lives. Computers and iPads are visual 
+                            media. Statistically, communication is mainly visual. Research indicates that majority of communication 
+                            happens visually and verbal expression remains limited. Today’s world must be made accessible for 
+                            everyone, regardless of a person’s abilities or impairments. <i>“Accessibility ensures people with 
+                            disabilities can access the same information from a system as everyone else, and also gain the same 
+                            benefits”.</i></p>
+                            <p>The proposed project extends this idea of accessibility to physical interfaces, which will 
+                            enable the visually challenged in various professional ways, to express their thoughts and ideas. Using 
+                            Raspberry Pi, a simple yet efficient interface is developed which helps the visually challenged to convert an 
+                            image of printed running text using Optical Character Recognition technology into speech. A Speech-to-Text 
+                            feature is also embedded into this interface, which will convert a person’s speech into text and display the 
+                            same onto a monitor. </p>
+                      </div>
+                      <div class="sideContent" style="margin-top: 3rem;">
+                        <p>Duration: September to March</p>
+                        <p>Link to Final Presentation (TBA)</p>
+                        <p>Link to github repo (TBA)</p>
+                        <p>Link to the paper publish (TBA)</p>
+                        <p>Tools: Python, Raspberry Pi, Tesseract OCR, IBM Watson</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="statement">
+            <div class="content">
+              <h2 style="font-size: 25px;color: white;">How might we provide a fast and efficient mode of expression for people with visual impairment? </h2>
+            </div>
+          </section>
+
+          
+
+          <div class="interviews" id="interviews">
+          <div class="post-title">
+            <div class="mainContent">
+              <div class="sideContent">
+                <h1>Interviews</h1>
+              <p>I conducted 4 interviews with people of different age groups having different levels of visual impairments to 
+                  understand different perspectives into the problem statement. During the interview, I found out how people needed 
+                  a physical "model-like" interface especially to help them read understand different fonts and communicate using 
+                  technology.</p>
+              </div> 
+              <div class="sideContent">
+                <div class="vl" style="margin-top: 3rem;">
+                  <ol>
+                      <li>What are the different ways in which you read documents?</li>
+                      <li>How do you feel using a mobile phone that can read out documents aloud to you?</li>
+                      <li>What problems do you face while assessing any document?</li>
+                  </ol>
+                </div> 
+              </div>
+                </div>
+                  <section class="card-container">
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <p>Based on the theme that people are interested in technology</p> 
+                        </div>
+                        <div class="flip-card-back">
+                          <p>An insight is to provide a digital solution to the user's problems</p> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <p>Based on the theme that people find face difficulty in navigating through a mobile screen</p> 
+                        </div>
+                        <div class="flip-card-back">
+                          <p>An insight is a more intuitive framework that they can interact with</p> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <p>Based on the theme that people are unable to comprehend small text sizes</p> 
+                        </div>
+                        <div class="flip-card-back">
+                          <p>An insight is to design an accessible digital solution</p> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <p>Based on the theme that visual impairment makes user's uncomfortable to continuously read books or other documents</p> 
+                        </div>
+                        <div class="flip-card-back">
+                          <p>An insight is: to design an interface that doesn't require excessive visual concentration</p> 
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+          </div>
+        </div>
+    
+            <!--Card Flips: Insights-->
+          
+
+        <!--Personas-->
+
+        <div class="personas" id="personas">
+            <div class="post-title">
+                <h1>User Persona</h1>
+                <p>Based on the interviews and analysis I conducted, I designed two personas of people with different demographics,
+                    age and personalities.
+                </p>
+                <div class="row">
+                    <div class="column">
+                      <img src="assets/Project_1/Persona 1.png" alt="Persona 1" style="width:100%">
+                    </div>
+                    <div class="column">
+                      <img src="assets/Project_1/Persona 2.png" alt="Persona 2" style="width:100%">
+                    </div> 
+                  </div>    
+            </div>
+          </div> 
+
+          <!--Empathy Maps-->
+          <div class="empathy">
+            <div class="post-title">
+                <h1>Empathy Map</h1>
+                <p>After gathering inputs from interviews, personas and the insights, I got a list of what the user thinks, 
+                    feels, does and says while shopping for an item. This empathy mapping helped me understand what the user 
+                    actually wants and established the goals of this project</p>  
+                    <img src="assets/Project_1/Empathymap.png" alt="Empathy Map" class="responsive">      
+            </div> 
+          </div>
+
+          <!--Existing and Proposed System-->
+
+          <div class="systemAnalysis" id ="systemAnalysis" style="margin-top: 3rem;">
+            <div class="post-title">
+                <h1>Proposed System</h1>
+                <p>I analyzed eight research papers to perform literature review about the existing solutions to the problem statement. Over the 
+                  years, many papers have talked about developing an interface for the visually impaired, analyzed different 
+                  Text-to-Speech and Speech-to-Text methodologies.</p>
+                  <p>Finally, I broke down my proposed solution into two modules: </p>
+
+                  <button class="collapsible">Text-to-Speech</button>
+                  <div class="content-collapsible"> 
+                  <ol>
+                    <li id="menu-item"><span style="font-weight: bold;">Input of text document in English: </span>Raspberry Pi camera module is connected to the Raspberry Pi 3B model. 
+                      A text document, an A4 size sheet is placed, within the distance of 10-15 cm in front of the camera module. The camera 
+                      clicks an image of this document and sends it to the OCR engine.</li>
+
+                    <li id="menu-item"><span style="font-weight: bold;">Optical Character Recognition: </span>Tesseract OCR engine converts the image of the text into machine-encoded 
+                        language (ASCII values). Text lines are broken down according to the spacing between characters. Each word 
+                        is recognized and is considered as training data in the first iteration. In the second iteration, certain 
+                        words not recognized in the first iteration are recognized again.</li>
+
+                    <li id="menu-item"><span style="font-weight: bold;">Speech Conversion: </span>The recognized characters are displayed onto the screen. Text-to-Speech algorithm 
+                          converts the text into human like voice speech in English language. Headphones are connected in the audio 
+                          jack of Raspberry Pi and speech can be heard through them.</li>
+                  </ol>
+                  </div>
+                  <button class="collapsible">Speech-to-Text</button>
+                  <div class="content-collapsible"> 
+                    <ol>
+                      <li id="menu-item"><span style="font-weight: bold;">English speech Input: </span>
+                        Speech input can be obtained from USB microphone, Bluetooth headset of prerecorded audio. The input is sent to 
+                        IBM Watson for text conversion. </li>
+  
+                      <li id="menu-item"><span style="font-weight: bold;">Speech-to-Text conversion by IBM Watson: </span> 
+                        IBM Watson provides with an API key and URL values for conversion of audio into text. Thus, an API key, 
+                        format of the audio, path of the audio stored in the local system and the URL value is sent for conversion to text.
+                        </li>
+  
+                      <li id="menu-item"><span style="font-weight: bold;">Text output: </span>
+                        Text received from IBM Watson is printed on the monitor attached to the Raspberry Pi.</li>
+                    </ol>
+                  </div>
+                  
+            </div> 
+          </div>
+
+          <!--System Design Grid pics-->
+          <div class="systemDesign" id="systemDesign">
+            <div class="post-title">
+                <h1>System Design</h1>
+                <p>The detailed design of the proposed system is depicted using different diagrams like Use Case diagram, 
+                  Activity diagram, Sequence diagram and Deployment diagram. It helps in understanding of how the system works and 
+                  provides knowledge regarding the system.</p>        
+            </div>
+            </div>
+
+            <div class="slideshow-container">
+
+              <div class="mySlides fade">
+                <img src="assets/Project_1/system_design/Pic1.png" alt="Use Case 1">
+                <div class="text">Use Case Diagram for Text-to-Speech</div>
+              </div>
+              
+              <div class="mySlides fade">
+                <img src="assets/Project_1/system_design/Pic2.png" alt="Use Case 2">
+                <div class="text">Use Case Diagram for Speech-to-Text</div>
+              </div>
+              
+              <div class="mySlides fade">
+                <img src="assets/Project_1/system_design/Pic3.png" alt="Activity Diagram">
+                <div class="text">Activity Diagram</div>
+              </div>
+
+              <div class="mySlides fade">
+                <img src="assets/Project_1/system_design/Pic4.png" alt="Sequence Diagram">
+                <div class="text">Sequence Diagram</div>
+              </div>
+
+              <div class="mySlides fade">
+                <img src="assets/Project_1/system_design/Pic5.png" alt="Deployment Diagram">
+                <div class="text">Deployment Diagram</div>
+              </div>
+              
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              
+              </div>
+              <br>
+              
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+              </div>
+
+        <!--End of system design-->
+        <button class="collapsible" style="margin-top: 4rem;">Comparison of Existing and Proposed System</button>
+        <div class="content-collapsible"> 
+          <table>
+            <tr>
+              <th>Specifications</th>
+              <th>Existing System</th>
+              <th>Proposed System</th>
+            </tr>
+            <tr>
+              <td>Platform</td>
+              <td>
+                <p>1. Android: Bulky and complex implementation</p>
+                <p>2. MATLAB: Implementation and debugging is easy</p>
+              </td>
+              <td>Linux x86-64: 
+                <p>Easy and lightweight, hardened environment, Python runtime</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Camera</td>
+              <td>Mobile Camera: 
+                <p>Good quality image but expensive</p>
+              </td>
+              <td>Raspberry Pi camera: 
+                <p>Satisfactory image quality and economical</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Text Input</td>
+              <td>Arbitrary Images</td>
+              <td>Printed running text</td>
+            </tr>
+            <tr>
+              <td>Text Output</td>
+              <td>Google Server</td>
+              <td>IBM Watson</td>
+            </tr>
+            <tr>
+              <td>Speech Input</td>
+              <td>Microphone</td>
+              <td>Microphone</td>
+            </tr>
+            <tr>
+              <td>Speech Output</td>
+              <td>Phenome audio library and Flite library</td>
+              <td>Google API</td>
+            </tr>
+          </table>
+        </div>
+
+        <!--Final Solution section-->
+        <div class="finalDesign mainContent">
+          <div class="post-title sideContent">
+              <h1>Final Design and Solution</h1>
+              <p>After analyzing all the existing models, perfoming a literature review and designing various diagrams, I finally
+                developed a physical, working Human-Computer Interface for the visually challenged is developed with a Raspberry Pi. 
+                The interface model successfully clicks an image of the text document, recognizes the characters by Optical Character Recognition and 
+                finally converts printed running English text into English speech. This project focuses only on the textual regions; 
+                complex backgrounds are beyond the scope of it. This interface also recognizes an English speech, IBM Watson converts the same 
+                into English text and this text is displayed on the screen.
+              </p>
+            </div>  
+              <div class="row finalImage sideContent">
+                <div class="column">
+                  <img src="assets/Project_1/finalImages/pic1.jpg" alt="First picture" style="width:100%">
+                </div>
+                <!-- <div class="column">
+                  <img src="assets/Project_1/finalImages/pic2.jpg" alt="Second picture" style="width:100%">
+                </div> -->
+                <div class="column">
+                  <img src="assets/Project_1/finalImages/pic3.jpg" alt="Third picture" style="width:100%">
+                </div>
+              </div>      
+          
+          <!--3 pictures side by side-->
+          
+          </div>  
+
+
+        <!--Testing section-->
+        <div class="testing" id="testing">
+          <div class="post-title">
+              <h1>Testing</h1>
+              <p>I tested my prototype with various font styles to analyze the accuracy of Text-to-Speech feature and various accents to 
+                analyze the accuracy of Speech-to-Text feature. The results are summarized in the table below. In depth testing 
+                including all the speech input and output recordings can be accessed in the final deck presentation. </p> 
+                
+                <div class="tableRow">
+                  <div class="tableColumn">
+                    <p>Summarization of Text-to-Speech Test Cases</p>
+                    <table>
+                      <tr>
+                        <th>Font and Size</th>
+                        <th>Number of Words</th>
+                        <th>OCR Accuracy</th>
+                        <th>Remarks</th>
+                      </tr>
+                      <tr>
+                        <td>Times New Roman - 14</td>
+                        <td>110</td>
+                        <td>99%</td>
+                        <td>Successful conversion. No errors in speech.</td>
+                      </tr>
+                      <tr>
+                        <td>Courier New - 14</td>
+                        <td>110</td>
+                        <td>97%</td>
+                        <td>Very few spelling mistakes that do not affect the speech much.</td>
+                      </tr>
+                      <tr>
+                        <td>Pacifico - 14</td>
+                        <td>110</td>
+                        <td>77%</td>
+                        <td>Confusing text, many spelling mistakes which results in incorrect speech.</td>
+                      </tr>
+                      <tr>
+                      <td>Oswald - 14</td>
+                      <td>110</td>
+                      <td>88%</td>
+                      <td>Few spelling mistakes, only those words are affected in the speech.</td>
+                      </tr>
+                      <tr>
+                      <td>Caveat - 14</td>
+                      <td>110</td>
+                      <td>78%</td>
+                      <td>Confusing text, lots of unnecessary blank spaces even though the input doesn’t have those many spaces.</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="tableColumn">
+                    <p>Summarization of Speech-to-Text Test Cases</p>
+                    <table>
+                      <tr>
+                        <th>Accent</th>
+                        <th>Number of Words</th>
+                        <th>Accuracy</th>
+                        <th>Remarks</th>
+                      </tr>
+                      <tr>
+                        <td>Indian</td>
+                        <td>23</td>
+                        <td>80%</td>
+                        <td>No change in text</td>
+                      </tr>
+                      <tr>
+                        <td>America</td>
+                        <td>23</td>
+                        <td>95%</td>
+                        <td>No change in text</td>
+                      </tr>
+                      <tr>
+                        <td>Australian</td>
+                        <td>23</td>
+                        <td>86%</td>
+                        <td>One spelling mistake</td>
+                      </tr>
+                      <tr>
+                      <td>Italian</td>
+                      <td>23</td>
+                      <td>66%</td>
+                      <td>Many spelling mistakes, confusing text</td>
+                      </tr>
+                      <tr>
+                      <td>Chinese</td>
+                      <td>23</td>
+                      <td>83%</td>
+                      <td>Two-three spelling mistakes, yet the context of the text is not harmed</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>  
+          </div>
+          <!--Table for Comparison-->
+      
+          
+
+          <div class="future" id="future">
+            <div class="post-title">
+                <h1>Future Enhancements</h1>
+                <ol>
+                  <li class="future-item">Making the model intelligent enough to recognize handwritten text</li>
+                  <li class="future-item">Increasing the accuracy of OCR in cursive font </li>
+                  <li class="future-item">Increasing the accuracy of Speech-to-Text in various accents</li> 
+                  <li class="future-item">Increasing the efficiency of the model by using vernacular languages</li>  
+                  <li class="future-item">Developing an offline Text-to-Speech and Speech-to-Text modules without having to overload Raspberry Pi</li>  
+                  <li class="future-item"> Making the physical model compact enough to be used commercially</li>  
+                </ol>     
+            </div>
+            </div>
+    </section>
+    <!--End of main section-->
+    
+  
+
+    <div class="footer">
+      <div class="container">
+        <p style="text-align: center;">&copy;Designed and Developed by Sharadhi 2021.</p>
+        <p style="text-align: center;">University of Michigan, Ann Arbor</p>
+      </div>
+    </div>
+
+    <!--Carousel-->
+    
+</main>
+
+<!--Footer-->
+
+
+ <!--Jquery has to be added before javascript--> 
+<script src="./js/Jquery3.6.0.min.js"></script>    
+<script src="./js/owl.carousel.min.js"></script>
+<script src="./js/main.js"></script> 
+<script>
+  window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("menu");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+  $(document).ready(function(){
+ $(window).scroll(function(){
+   var scrollPos = $(document).scrollTop();
+   $('#menu-center a').each(function () {
+   var currLink = $(this);
+   var refElement = $(currLink.attr("href"));
+   if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+        $('#menu-center ul li a').removeClass("active");
+            currLink.addClass("active");
+   }
+   else{
+            currLink.removeClass("active");
+   }
+ });
+});
+ 
+});
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+ 
+</body>
+
+</html>
